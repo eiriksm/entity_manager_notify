@@ -1,0 +1,6 @@
+services:
+  logger_notify.factory:
+    class: Drupal\logger_notify\LoggerNotifyChannelFactory
+    parent: container.trait
+    tags:
+      - { name: service_collector, tag: logger, call: addLogger }

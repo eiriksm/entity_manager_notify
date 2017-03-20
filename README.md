@@ -1,2 +1,2 @@
-# entity_manager_notify
+# logger_notify
 A real silly idea
